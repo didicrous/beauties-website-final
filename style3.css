@@ -1,0 +1,104 @@
+body{
+	background-color: #FF0099;
+}
+
+
+p{
+	padding:0;
+	margin:0;
+	border:none;
+}
+
+#header{
+	height: 100px;
+	background-color: #FF0099;
+}
+
+@font-face {
+	font-family: PeachSundress;
+	src: url('peach-sundress.ttf');
+}
+
+#pageTitle p{
+	text-align: center;
+	color: white;
+	font-family: PeachSundress;
+	font-size: 600%;
+	font-weight: bold;
+
+} 
+
+.col-lg-6{
+	padding:0;
+}
+
+.col-lg-12{
+	padding:0;
+}
+
+.box{
+	-moz-background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	-webkit-filter: brightness(50%);
+	padding:0;
+}
+.box#box1{
+	height: 325px;
+	width:100%;
+    background-image: url("homePage1.jpg");
+}
+
+.box#box2{
+	height: 325px;
+	width:100%;
+    background-image: url("homePage4.jpg");
+	 }   
+
+.box#box3{
+	height: 325px;
+	width:100%;
+	background-image: 
+	    url("homePage2.jpg");
+}
+
+.box#box4{
+	height: 325px;
+	width:100%;
+    background-image: url("homePage3.jpg");
+    padding:0;
+}
+
+.selections {
+height: 50px;
+width: 100px;
+padding:0;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0; 
+}
+
+.selections p{
+	font-family: Verdana;
+	color: white;
+	font-size: 400%;
+	margin-top: 0px;
+}
+
+.selections#about p{
+	margin-left: -100px;
+}
+
+.selections#media p{
+	margin-left: -50px;
+}
+
+.selections#contact p{
+	margin-left: -150px;
+}
+
+.selections#news p{
+	margin-left: -45px;
+}
+
