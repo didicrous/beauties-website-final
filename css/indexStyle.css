@@ -16,7 +16,7 @@ p{
 
 @font-face {
 	font-family: PeachSundress;
-	src: url('peach-sundress.ttf');
+	src: url('../font/peach-sundress.ttf');
 }
 
 #pageTitle p{
@@ -47,26 +47,26 @@ p{
 .box#box1{
 	height: 325px;
 	width:100%;
-    background-image: url("img/homePage1.jpg");
+    background-image: url("../img/homePage1.jpg");
 }
 
 .box#box2{
 	height: 325px;
 	width:100%;
-    background-image: url("img/homePage4.jpg");
+    background-image: url("../img/homePage4.jpg");
 	 }   
 
 .box#box3{
 	height: 325px;
 	width:100%;
 	background-image: 
-	    url("img/homePage2.jpg");
+	    url("../img/homePage2.jpg");
 }
 
 .box#box4{
 	height: 325px;
 	width:100%;
-    background-image: url("img/homePage3.jpg");
+    background-image: url("../img/homePage3.jpg");
     padding:0;
 }
 

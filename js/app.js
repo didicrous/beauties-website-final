@@ -8,19 +8,19 @@ $(document).ready(function(){
     	});
 
     $('#box1').click( function(){
-        window.location.href="aboutUs.html"; 
+        window.location.href="file:///Users/didicrous/Desktop/my%20websites/beauties/html/aboutUs.html"; 
     });
 
     $('#box2').click( function(){
-        window.location.href="Media.html"; 
+        window.location.href="file:///Users/didicrous/Desktop/my%20websites/beauties/html/media.html"; 
     });
 
     $('#box3').click( function(){
-        window.location.href="news.html"; 
+        window.location.href="../html/news.html"; 
     });    
     
     $('#box4').click( function(){
-        window.location.href="contactUs.html"; 
+        window.location.href="../html/contactUs.html"; 
     });
 
 });
