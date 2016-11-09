@@ -1,0 +1,14 @@
+.card .card-content p{
+	font-size: medium;
+}
+
+.col-lg-12 h6{
+	text-align: center;
+	color:rgb(84, 110, 122);
+	margin-bottom: 1em;
+}
+
+.col-lg-12{
+	margin-top: 2em;
+	margin-bottom: 1em;
+}

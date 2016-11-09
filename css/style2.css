@@ -1,6 +1,6 @@
 
 
-/*html, body{	
+/*html, body{
 	height: 100%;
 }*/
 
@@ -34,11 +34,11 @@ p{
 	font-size: 450%;
 	font-weight: bold;
 
-} 
-.container-fluid{ 
+}
+.container-fluid{
 	width: 100%;
 	height: 100%;
-}	
+}
 
 .row#row1{
 	height: 10%;
@@ -57,7 +57,7 @@ p{
 	margin: 0;
 	padding: 0;
 	height: 100%;
-} 
+}
 
 .col-lg-6{
 	margin:0;
@@ -81,12 +81,12 @@ p{
 }
 
 .box#box2{
-	
+
     background-image: url("beauties2.jpg");
-	 }   
+	 }
 
 .box#box3{
-	background-image: 
+	background-image:
 	    url("beauties5.jpg");
 }
 
@@ -101,7 +101,7 @@ width: 100px;
 padding:0;
   margin: auto;
   position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0; 
+  top: 0; left: 0; bottom: 0; right: 0;
 }
 
 .selections p{
@@ -133,9 +133,3 @@ p span#us{
 	border:0;
 	white-space: nowrap;
 }
-
-
-
-      
-
-

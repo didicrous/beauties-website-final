@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- saved from url=(0075)file:///Users/didicrous/Projects/SWEetOutdoors-dev/app/templates/parks.html -->
+<html ng-app="" lang="en-us" class="ng-scope"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    
+    <title>SWEet Outdoors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="./SWEet Outdoors_files/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./SWEet Outdoors_files/stylesheet.css" media="screen">
+    <!-- basic js files -->
+    <script src="./SWEet Outdoors_files/jquery.min.js"></script>
+    <script src="./SWEet Outdoors_files/bootstrap.min.js"></script>
+    <!-- js files for table sorting and pagination-->
+    <!-- js files for angular-->
+    <script src="./SWEet Outdoors_files/angular.min.js"></script>    
+    <script type="text/javascript" src="./SWEet Outdoors_files/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="./SWEet Outdoors_files/dataTables.bootstrap.min.js"></script>   
+    <!-- css for table pagination -->
+    <link rel="stylesheet" type="text/css" href="./SWEet Outdoors_files/bootstrap.min(1).css" media="screen">  
+    <link rel="stylesheet" type="text/css" href="./SWEet Outdoors_files/dataTables.bootstrap.min.css" media="screen"> 
+    <!-- fonts -->
+    <link href="./SWEet Outdoors_files/css" rel="stylesheet">
+    <link href="./SWEet Outdoors_files/css(1)" rel="stylesheet">
+  </head>
+
+  <body>
+    <ul class="nav nav-pills">
+      <li role="presentation"><a href="file:///Users/didicrous/Projects/SWEetOutdoors-dev/app/templates/parks.html">Home</a></li>
+      <li role="presentation" class="active"><a href="file:///Users/didicrous/Projects/SWEetOutdoors-dev/app/templates/parks.html">Parks</a></li>
+      <li role="presentation"><a href="file:///Users/didicrous/Projects/SWEetOutdoors-dev/app/templates/parks.html">Campgrounds</a></li>
+      <li role="presentation"><a href="file:///Users/didicrous/Projects/SWEetOutdoors-dev/app/templates/parks.html">States</a></li>
+      <li role="presentation"><a href="file:///Users/didicrous/Projects/SWEetOutdoors-dev/app/templates/parks.html">Events</a></li> 
+      <li role="presentation"><a href="file:///Users/didicrous/Projects/SWEetOutdoors-dev/app/templates/parks.html">About</a></li>         
+    </ul>
+
+    <div class="title">
+      <h1>Parks</h1>
+    </div> <!-- end of title -->
+  
+    <div class="row">
+      <div class="col-md-1"></div>  
+      <div class="col-md-10">
+        <div class="table" data-example-id="simple-responsive-table">
+          <div class="table-responsive">
+            <!-- Table -->
+            <div ng-controller="repeatController" class="ng-scope"> 
+              <div id="myTable_wrapper" class="dataTables_wrapper form-inline dt-bootstrap no-footer"><div class="row"><div class="col-sm-6"><div class="dataTables_length" id="myTable_length"><label>Show <select name="myTable_length" aria-controls="myTable" class="form-control input-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div></div><div class="col-sm-6"><div id="myTable_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control input-sm" placeholder="" aria-controls="myTable"></label></div></div></div><div class="row"><div class="col-sm-12"><table class="table table-striped dataTable no-footer" id="myTable" role="grid" aria-describedby="myTable_info">
+                <thead>
+                  <tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Park: activate to sort column descending" style="width: 64px;">Park</th><th class="sorting" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="Address: activate to sort column ascending" style="width: 55px;">Address</th><th class="sorting" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="Phone: activate to sort column ascending" style="width: 43px;">Phone</th><th class="sorting" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="Rating: activate to sort column ascending" style="width: 44px;">Rating</th><th class="sorting" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="Upcoming Event: activate to sort column ascending" style="width: 234px;">Upcoming Event</th><th class="sorting" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="Nearby Campground: activate to sort column ascending" style="width: 88px;">Nearby Campground</th><th class="sorting" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="State: activate to sort column ascending" style="width: 66px;">State</th></tr>
+                </thead>
+                <tbody>
+                  
+                  
+                  <tr role="row" class="odd">
+                    <th scope="row" class="sorting_1"><a href="file:///Users/didicrous/Projects/SWEetOutdoors-dev/app/templates/%7B%7B%20url_for(&#39;bigBend&#39;)%20%7D%7D">Big Bend National Park</a></th>
+                    <td>$12</td>
+                    <td>All Day</td>
+                    <td>5am - 10pm</td>
+                    <td>
+                      <a href="https://www.nps.gov/bibe/index.htm">https://www.nps.gov/bibe/index.htm</a>
+                    </td>
+                    <th scope="row"><a href="file:///Users/didicrous/Projects/SWEetOutdoors-dev/app/templates/%7B%7B%20url_for(&#39;austinCityLimits&#39;)%20%7D%7D">Austin City Limits</a></th>
+                    <th scope="row"><a href="file:///Users/didicrous/Projects/SWEetOutdoors-dev/app/templates/%7B%7B%20url_for(&#39;yosemiteCampground&#39;)%20%7D%7D">Yosemite Campground</a></th>
+                </tr><tr role="row" class="even">
+                    <th scope="row" class="sorting_1"><a href="file:///Users/didicrous/Projects/SWEetOutdoors-dev/app/templates/%7B%7B%20url_for(&#39;deathValley&#39;)%20%7D%7D">Death Valley National Park</a></th>
+                    <td>$10</td>
+                    <td>5am - 10pm</td>
+                    <td>5am - 10pm</td>
+                    <td>
+                      <a href="https://www.nps.gov/deva/index.htm">https://www.nps.gov/deva/index.htm</a>
+                    </td>
+                    <th scope="row"><a href="file:///Users/didicrous/Projects/SWEetOutdoors-dev/app/templates/%7B%7B%20url_for(&#39;yellowStoneAnniversary&#39;)%20%7D%7D">Yellowstone Anniversary</a></th>
+                    <th scope="row"><a href="file:///Users/didicrous/Projects/SWEetOutdoors-dev/app/templates/%7B%7B%20url_for(&#39;everglades&#39;)%20%7D%7D">Everglades Campground</a></th>
+                  </tr><tr role="row" class="odd">
+                    <th scope="row" class="sorting_1"><a href="file:///Users/didicrous/Projects/SWEetOutdoors-dev/app/templates/%7B%7B%20url_for(&#39;zilker&#39;)%20%7D%7D">Zilker Metropolitan Park</a></th>
+                    <td>$0</td>
+                    <td>5am - 10pm</td>
+                    <td>5am - 10pm</td>
+                    <td>
+                      <a href="http://austintexas.gov/department/zilker-metropolitan-park">http://austintexas.gov/department/zilker-metropolitan-park</a>
+                    </td>
+                    <th scope="row"><a href="file:///Users/didicrous/Projects/SWEetOutdoors-dev/app/templates/%7B%7B%20url_for(&#39;runForTheHungry&#39;)%20%7D%7D">Run For The Hungry</a></th>
+                    <th scope="row"><a href="file:///Users/didicrous/Projects/SWEetOutdoors-dev/app/templates/%7B%7B%20url_for(&#39;bearCreek&#39;)%20%7D%7D">Bear Creek</a></th>
+                  </tr></tbody>
+              </table></div></div><div class="row"><div class="col-sm-5"><div class="dataTables_info" id="myTable_info" role="status" aria-live="polite">Showing 1 to 3 of 3 entries</div></div><div class="col-sm-7"><div class="dataTables_paginate paging_simple_numbers" id="myTable_paginate"><ul class="pagination"><li class="paginate_button previous disabled" id="myTable_previous"><a href="file:///Users/didicrous/Projects/SWEetOutdoors-dev/app/templates/parks.html#" aria-controls="myTable" data-dt-idx="0" tabindex="0">Previous</a></li><li class="paginate_button active"><a href="file:///Users/didicrous/Projects/SWEetOutdoors-dev/app/templates/parks.html#" aria-controls="myTable" data-dt-idx="1" tabindex="0">1</a></li><li class="paginate_button next disabled" id="myTable_next"><a href="file:///Users/didicrous/Projects/SWEetOutdoors-dev/app/templates/parks.html#" aria-controls="myTable" data-dt-idx="2" tabindex="0">Next</a></li></ul></div></div></div></div>
+            </div> <!-- end of <div class = "repeatController">-->
+          </div> <!-- end of <div class = "table-responsive"> -->
+        </div> <!-- end of <div class = "table"> -->
+      </div> <!-- end of <div class = "col-md-10"> -->
+    </div> <!-- end of <div class = "row"> -->
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('#myTable').DataTable(); 
+      });
+    </script>
+  
+
+</body></html>

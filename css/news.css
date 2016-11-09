@@ -1,0 +1,24 @@
+.col-lg-12 h1{
+	text-align: center;
+	color:white;
+	margin: 0;
+	padding-top:0;
+	padding-bottom: .5em;
+}
+
+h2{
+	color: rgb(84, 110, 122);
+}
+
+img.headline{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height:50vh;
+}
+
+img{
+	max-width: 100%;
+	height:auto;
+	border: .5em solid rgb(84,110,122);;
+}

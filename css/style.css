@@ -1,9 +1,9 @@
 body{
-	background-color: #FF0099;
+	background-color: #EEC3BA;
 }
 
 .jumbotron{
-	background-color: #CCCCCC;
+	background-color: #DEDEDE;
 }
 
 .jumbotron h1{
@@ -13,7 +13,7 @@ body{
 
 
 .navbar{
-	background-color: #FF0099;
+	background-color: #EEC3BA;
 	height: 100px;
 	margin-bottom: 0;
 }
@@ -29,7 +29,7 @@ body{
 
 .navbar-default .navbar-nav .active a{
 	color:white;
-	background-color: #CCCCCC;
+	background-color: #DEDEDE;
 }
 
 .navbar-default .navbar-brand{
@@ -44,4 +44,6 @@ body{
 	border-color: white;
 }
 
-
+footer.page-footer {
+    background-color: rgb(84,110,122);
+}

@@ -3,5 +3,55 @@
 		display:none;
 	}
 
+	.box#box1{
+		background-image: url("../img/homePage2Crop.jpg");
+
+	}
+
+	.box#box2{
+		 background-image: url("../img/homePage3Crop.jpg");
+
+	}
+
+	.box#box3{
+
+		background-image: url("../img/homePage1Crop.jpg");
+	}
+
+	.box#box4{
+
+		background-image: url("../img/homePage4Crop.jpg");
+	}	
+
+	.icon{
+		margin-left: .5%;
+		margin-right: .5%;
+		width: 22%;
+	}
+
+	.icons{
+		height:30%;
+	}
+
+	.textbox{
+		display:inline;
+	}
+
+	.col-md-12#shade3{
+		height: 170vh;
+	}	
+
+	.slider{
+		display:none;
+	}
+
+.pictures-collapsed{
+	display:inline;
+}
+
+.pictures-collapsed img{
+	margin-bottom: 1.5em;
+}	
+
 }
 

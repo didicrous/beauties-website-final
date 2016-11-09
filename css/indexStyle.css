@@ -1,5 +1,5 @@
 body{
-	background-color: #FF0099;
+	background-color: #EEC3BA;
 }
 
 
@@ -11,22 +11,25 @@ p{
 
 #header{
 	height: 100px;
-	background-color: #FF0099;
+	background-color: #EEC3BA;
 }
 
 @font-face {
-	font-family: PeachSundress;
-	src: url('../font/peach-sundress.ttf');
+	font-family: Bariol_Regular;
+	src: url('../font/Bariol_Regular.otf');
 }
 
 #pageTitle p{
 	text-align: center;
-	color: white;
-	font-family: PeachSundress;
+    color: rgb(84, 110, 122);;
+	font-family: Bariol_Regular;
 	font-size: 600%;
 	font-weight: bold;
 
-} 
+}
+.container{
+	border-style: solid;
+}
 
 .col-lg-6{
 	padding:0;
@@ -47,58 +50,72 @@ p{
 .box#box1{
 	height: 325px;
 	width:100%;
-    background-image: url("../img/homePage1.jpg");
+    background-image: url("../img/homePage2.jpg");
+	opacity:75%;
 }
 
 .box#box2{
 	height: 325px;
 	width:100%;
-    background-image: url("../img/homePage4.jpg");
-	 }   
+    background-image: url("../img/homePage3.jpg");
+	 }
 
 .box#box3{
 	height: 325px;
 	width:100%;
-	background-image: 
-	    url("../img/homePage2.jpg");
+	background-image:
+	    url("../img/homePage1.jpg");
 }
 
 .box#box4{
 	height: 325px;
 	width:100%;
-    background-image: url("../img/homePage3.jpg");
+    background-image: url("../img/homePage4.jpg");
     padding:0;
 }
 
 .selections {
-height: 50px;
-width: 100px;
 padding:0;
-  margin: auto;
   position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0; 
+  top: 0; left: 0; bottom: 0; right: 0;
+	margin: auto;
+
 }
 
 .selections p{
-	font-family: Verdana;
-	color: white;
+	font-family: Bariol_Regular;
+	color: #FEFEF3;
 	font-size: 400%;
+	font-weight:900;
 	margin-top: 0px;
 }
 
+.selections#about{
+	height:57px;
+	width:201px;
+}
+
+.selections#media{
+	height: 57px;
+	width:143px;
+}
+.selections#contact{
+	height: 57px;
+	width:241px;
+}
+
+.selections#news{
+	height: 57px;
+	width:119px;
+}
 .selections#about p{
-	margin-left: -100px;
 }
 
 .selections#media p{
-	margin-left: -50px;
 }
 
 .selections#contact p{
-	margin-left: -150px;
 }
 
 .selections#news p{
-	margin-left: -45px;
 }
-
